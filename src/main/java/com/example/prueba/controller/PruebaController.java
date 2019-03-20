@@ -10,6 +10,6 @@ public class PruebaController{
 
     @RequestMapping(method=RequestMethod.GET)
     public String valid() throws Exception{
-        return "OK :)";
+        return "Hola Luciano";
     }
 }
