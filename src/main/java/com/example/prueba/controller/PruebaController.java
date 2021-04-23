@@ -10,6 +10,6 @@ public class PruebaController{
 
     @RequestMapping(method=RequestMethod.GET)
     public String valid() throws Exception{
-        return "Hola Lalito, soy una appa de back-end que solo responde este mensaje pedorro";
+        return "Hola Lalito, soy una app de back-end que solo responde este mensaje pedorro";
     }
 }
