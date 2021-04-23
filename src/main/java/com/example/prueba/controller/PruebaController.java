@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/prueba")
+@RequestMapping("/lalito")
 public class PruebaController{
 
     @RequestMapping(method=RequestMethod.GET)
     public String valid() throws Exception{
-        return "Hola Duffa";
+        return "Hola Lalito, soy una appa de back-end que solo responde este mensaje pedorro";
     }
 }
